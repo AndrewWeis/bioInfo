@@ -4,7 +4,6 @@
 2. [Ссылка на загруженные прочтения из NCBI SRA](https://www.ncbi.nlm.nih.gov/sra/SRX18065555[accn])
 3. [Bash скрипт с реализованным алгоритмом](/Part1/bash.sh)
 4. [Результат команды samtools flagstat](/Part1/final.txt)
-5. []
 
 # Part 2
 
@@ -28,11 +27,11 @@ curl -s https://get.nextflow.io | bash
 
 # Часть 3
 
-1. [Инструкция по запуска пайплайна через bash](/Part3/example_pipline_run.sh)
-2. [Код пайплайна на NextFlow](/Part3/pipline.nf)
+1. [Инструкция](/Part3/example_pipline_run.sh) по запуску пайплайна через bash
+2. [Код](/Part3/pipline.nf) пайплайна на NextFlow
 3. Все сгенерированные файлы в ходе работы пайплайна по умолчанию кладутся в папку out, [пример](/Part3/out/)
 3. По итогу в консоль выводится результат "OK" или "Not OK"
-4. [Сгенерированный лог-файл](/Part3/.nextflow.log)
+4. Сгенерированный [лог-файл](/Part3/.nextflow.log)
 5. Визуализация пайплайна в виде графического файла:
 <p align="center">
   <img src="/Part3/diagram.png"/>
