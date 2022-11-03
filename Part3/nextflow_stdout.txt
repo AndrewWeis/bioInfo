@@ -1,0 +1,8 @@
+N E X T F L O W  ~  version 22.10.1
+Launching `pipline.nf` [pedantic_monod] DSL2 - revision: 8f5f644948
+[c4/87f818] process > fastQC           [100%] 1 of 1, cached: 1 ✔
+[b6/f063f6] process > bwaIndex         [100%] 1 of 1, cached: 1 ✔
+[6b/966ff6] process > bwaMem           [100%] 1 of 1, cached: 1 ✔
+[0d/270181] process > samtoolsFlagstat [100%] 1 of 1, cached: 1 ✔
+[61/d4fbd5] process > parsePercent     [100%] 1 of 1, cached: 1 ✔
+Not OK

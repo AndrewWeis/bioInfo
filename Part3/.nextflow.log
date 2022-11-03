@@ -1,0 +1,67 @@
+Nov-03 19:46:56.320 [main] DEBUG nextflow.cli.Launcher - $> nextflow run pipline.nf -resume
+Nov-03 19:46:56.400 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.1
+Nov-03 19:46:56.421 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/bignik/.nextflow/plugins; core-plugins: nf-amazon@1.11.0,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.4,nf-tower@1.5.5,nf-wave@0.5.2
+Nov-03 19:46:56.434 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Nov-03 19:46:56.435 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Nov-03 19:46:56.439 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Nov-03 19:46:56.449 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Nov-03 19:46:56.523 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Nov-03 19:46:56.541 [main] INFO  nextflow.cli.CmdRun - Launching `pipline.nf` [pedantic_monod] DSL2 - revision: 8f5f644948
+Nov-03 19:46:56.542 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Nov-03 19:46:56.542 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Nov-03 19:46:56.551 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/bignik/.nextflow/secrets/store.json
+Nov-03 19:46:56.558 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@1ee29c84] - activable => nextflow.secret.LocalSecretsProvider@1ee29c84
+Nov-03 19:46:56.623 [main] DEBUG nextflow.Session - Session UUID: 2b380630-b8bf-4d3d-9dd2-9031c53a3cdf
+Nov-03 19:46:56.623 [main] DEBUG nextflow.Session - Run name: pedantic_monod
+Nov-03 19:46:56.623 [main] DEBUG nextflow.Session - Executor pool size: 8
+Nov-03 19:46:56.635 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Nov-03 19:46:56.665 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.1 build 5828
+  Created: 27-10-2022 16:58 UTC (23:58 NOVST)
+  System: Linux 5.15.0-52-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.16+8-post-Ubuntu-0ubuntu122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 15632@bignik-X550JK [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (461.9 MB) - Swap: 2 GB (1.8 GB)
+Nov-03 19:46:56.693 [main] DEBUG nextflow.Session - Work-dir: /home/bignik/Desktop/Bioinfa-Andrew1/Part3/work [ext2/ext3]
+Nov-03 19:46:56.694 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/bignik/Desktop/Bioinfa-Andrew1/Part3/bin
+Nov-03 19:46:56.703 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Nov-03 19:46:56.713 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Nov-03 19:46:56.734 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Nov-03 19:46:56.743 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Nov-03 19:46:56.956 [main] DEBUG nextflow.Session - Session start
+Nov-03 19:46:57.719 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-03 19:46:57.785 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Nov-03 19:46:57.785 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-03 19:46:57.792 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Nov-03 19:46:57.796 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Nov-03 19:46:57.930 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Nov-03 19:46:57.930 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-03 19:46:57.948 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Nov-03 19:46:57.948 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-03 19:46:57.965 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Nov-03 19:46:57.965 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-03 19:46:57.973 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Nov-03 19:46:57.974 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Nov-03 19:46:58.005 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: samtoolsFlagstat, bwaIndex, fastQC, parsePercent, bwaMem
+Nov-03 19:46:58.006 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+Nov-03 19:46:58.006 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > fastQC
+Nov-03 19:46:58.007 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > bwaIndex
+Nov-03 19:46:58.007 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > bwaMem
+Nov-03 19:46:58.007 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > samtoolsFlagstat
+Nov-03 19:46:58.019 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > parsePercent
+Nov-03 19:46:58.020 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Nov-03 19:46:58.020 [main] DEBUG nextflow.Session - Session await
+Nov-03 19:46:58.240 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [b6/f063f6] Cached process > bwaIndex
+Nov-03 19:46:58.240 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [c4/87f818] Cached process > fastQC
+Nov-03 19:46:58.250 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [6b/966ff6] Cached process > bwaMem
+Nov-03 19:46:58.267 [Actor Thread 8] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Nov-03 19:46:58.279 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [0d/270181] Cached process > samtoolsFlagstat
+Nov-03 19:46:58.301 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [61/d4fbd5] Cached process > parsePercent
+Nov-03 19:46:58.303 [main] DEBUG nextflow.Session - Session await > all processes finished
+Nov-03 19:46:58.321 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Nov-03 19:46:58.324 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Nov-03 19:46:58.330 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=5; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=7m 42s;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Nov-03 19:46:58.404 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Nov-03 19:46:58.417 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Nov-03 19:46:58.417 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
