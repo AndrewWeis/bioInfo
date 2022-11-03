@@ -25,7 +25,7 @@ curl -s https://get.nextflow.io | bash
 2. [папка .nextflow](/Part2/.nextflow)
 3. [логи](/Part2/.nextflow.log)
 
-# Часть 3
+# Part 3
 
 1. [Инструкция](/Part3/example_pipline_run.sh) по запуску пайплайна через bash
 2. [Код](/Part3/pipline.nf) пайплайна на NextFlow
